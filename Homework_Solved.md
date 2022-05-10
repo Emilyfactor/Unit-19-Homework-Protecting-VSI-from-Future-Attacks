@@ -42,34 +42,39 @@ Based on the attack signatures, what mitigations would you recommend to protect 
 			
 ![image](https://user-images.githubusercontent.com/96030770/167730648-2455f001-62cd-48ac-a04f-3b7a901dd90f.png)
 			
-						- Several attempts to reset password were made 
-						- User should be set up with user-specific alerts with lower values in order to closely analyze 
-			- User A: A user account was locked out
+		- Several attempts to reset password were made 
+		- User should be set up with user-specific alerts with lower values in order to closely analyze 
+		- User A: A user account was locked out
 			
 ![image](https://user-images.githubusercontent.com/96030770/167730899-55d2b807-2f2e-45e0-afdc-312228b0facd.png)
 		
-						-User should change password to something completely different immediately. A password that is complex to prevent a brute force attack in future.
-			- User J: An account was successfully logged on
+		- User should change password to something completely different immediately. A password that is complex to prevent a brute force attack in future.
+		- User J: An account was successfully logged on
 			
 ![image](https://user-images.githubusercontent.com/96030770/167731117-bdf487a0-e529-48b4-a27c-d506776b0907.png)
+
 		
-						- This log indicates the attacker was able to successfully obtain user's password
-						- Password should be changed to something more complex
-						- User should be set up with user-specific alerts with lower values in order to analyze closely			  	 		
+	T  g indicates the attacker was able to successfully obtain user's password
+ Password should be changed to something more complex
+ User should be set up with user-specific alerts with lower values in order to analyze closely			  	 		
 
 Question 2
 
 VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 What sort of mitigation could you use to protect against this?
 
-		> Offer regular cyber awareness training and workshops. Regular, interactive cyber awareness programs, simulated phishing attacks, etc. can help train employees to identify and react better to information security threats.
-		> Assess the security prowess of vendors before providing them with access. It makes sense to conduct a comprehensive, end-to-end vendor risk assessment for third parties to understand and evaluate their security posture before providing any access to the business network and prior to sharing any critical data.
-		> Verify, and verify again. Get into the habit of verifying and cross-verifying credentials and authorization before sharing any sensitive information. Use official contact information (such as the person’s phone number from your organization’s internal contact directory) and not information that’s provided to you by the suspicious individual.
+-Offer regular cyber awareness training and workshops. Regular, interactive cyber awareness programs, simulated phishing attacks, etc. can help train employees to identify and react better to information security threats.
+
+-Assess the security prowess of vendors before providing them with access. It makes sense to conduct a comprehensive, end-to-end vendor risk assessment for third parties to understand and evaluate their security posture before providing any access to the business network and prior to sharing any critical data.
+
+-Verify, and verify again. Get into the habit of verifying and cross-verifying credentials and authorization before sharing any sensitive information. Use official contact information (such as the person’s phone number from your organization’s internal contact directory) and not information that’s provided to you by the suspicious individual.
 
 
 Part 2: Apache Webserver Attack:
 
 Question 1
+
+
 
 ![image](https://user-images.githubusercontent.com/96030770/167729340-23616640-74f8-40e0-94b6-3a3c38bf7e33.png)
 
@@ -85,21 +90,21 @@ Question 1
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
 
-Filtering out the traffic from the United States, the country which had the most activity is coming from Ukraine.
-
-		> Firewall Rule Description- Block all incoming HTTP traffic where the source IP comes from the country of Ukraine.
-
+-Filtering out the traffic from the United States, the country which had the most activity is coming from Ukraine.
+-Firewall Rule Description- Block all incoming HTTP traffic where the source IP comes from the country of Ukraine.
 
 Question 2
 
+
 VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
+
 
 What other rules can you create to protect VSI from attacks against your webserver?
 
 Most of the data coming from the Ukarine is approximately 34% of the network. There are 3 other vaules that could cause for the creation of more firewalls: bytes, ip, useragent.
-	> Block all incoming HTTP traffic where the bytes are equal to 65748
-	> Block all incoming HTTP traffic where the ip address is equal to 194.105.145.147 AND 79.171.127.34
-	> Block all incoming HTTP traffic where the useragent is equal to Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0 50727987787; InfoPath.1)
+		- Block all incoming HTTP traffic where the bytes are equal to 65748
+		- Block all incoming HTTP traffic where the ip address is equal to 194.105.145.147 AND 79.171.127.34
+		- Block all incoming HTTP traffic where the useragent is equal to Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0 50727987787; InfoPath.1)
 
 Conceive of two more rules in "plain english".
 Hint: Look for other fields that indicate the attacker.
