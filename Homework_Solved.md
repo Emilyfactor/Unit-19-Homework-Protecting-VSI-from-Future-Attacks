@@ -23,6 +23,16 @@ Note: This is a public-facing windows server that VSI employees access.
 Question 1
 
 Several users were impacted during the attack on March 25th.
+
+![image](https://user-images.githubusercontent.com/96030770/167719421-be179805-108f-4779-aac5-6af2c9889651.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167720563-29b0f7a1-5f9e-47a5-9bce-ac4fa5ba5d08.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167720654-7408ff16-d685-4e43-9c57-875116296794.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167720718-878e0517-ab61-4811-ad00-2a1c282e397d.png)
+
+
 Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
 
 
