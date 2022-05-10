@@ -46,6 +46,17 @@ Part 2: Apache Webserver Attack:
 
 Question 1
 
+![image](https://user-images.githubusercontent.com/96030770/167722073-f3f58284-b00a-4345-95b8-ef5a23b87227.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167722306-edaa75a6-deb5-4d59-931b-91dc4b95f558.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167722526-7aae8e4f-aafb-4c81-939d-7c807b37fcad.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167722677-863fc2b4-0577-4806-bc47-f70a35b7ed33.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167722731-e9e27a35-89ae-4adf-9e71-6041bbcca1f3.png)
+
+
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
 
