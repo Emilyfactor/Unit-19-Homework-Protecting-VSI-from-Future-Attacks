@@ -24,6 +24,16 @@ Note: This is a public-facing windows server that VSI employees access.
 Question 1
 
 Several users were impacted during the attack on March 25th.
+
+![image](https://user-images.githubusercontent.com/96030770/167719421-be179805-108f-4779-aac5-6af2c9889651.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167720563-29b0f7a1-5f9e-47a5-9bce-ac4fa5ba5d08.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167720654-7408ff16-d685-4e43-9c57-875116296794.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167720718-878e0517-ab61-4811-ad00-2a1c282e397d.png)
+
+
 Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
 		
 		> Best Global mitigation solution would be to add a multi-factor authenticator to the companies systems. This would reduce the number of successful threats to gain access to user accounts.
@@ -49,6 +59,19 @@ What sort of mitigation could you use to protect against this?
 Part 2: Apache Webserver Attack:
 
 Question 1
+
+
+
+![image](https://user-images.githubusercontent.com/96030770/167729340-23616640-74f8-40e0-94b6-3a3c38bf7e33.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167729652-3aaf379c-c8ad-4dd6-ad45-bf9bac3c5c18.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167729709-75f91a43-e524-4dcb-974e-0db0657a5acc.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167722677-863fc2b4-0577-4806-bc47-f70a35b7ed33.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167722731-e9e27a35-89ae-4adf-9e71-6041bbcca1f3.png)
+
 
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
