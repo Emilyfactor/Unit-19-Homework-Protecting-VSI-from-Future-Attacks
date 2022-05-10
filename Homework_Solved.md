@@ -39,11 +39,20 @@ Based on the attack signatures, what mitigations would you recommend to protect 
 		> Best Global mitigation solution would be to add a multi-factor authenticator to the companies systems. This would reduce the number of successful threats to gain access to user accounts.
 		> Individual Solutions:
 			- User K: An attempt was made to reset password
+			
+![image](https://user-images.githubusercontent.com/96030770/167730648-2455f001-62cd-48ac-a04f-3b7a901dd90f.png)
+			
 						- Several attempts to reset password were made 
 						- User should be set up with user-specific alerts with lower values in order to closely analyze 
 			- User A: A user account was locked out
+			
+![image](https://user-images.githubusercontent.com/96030770/167730899-55d2b807-2f2e-45e0-afdc-312228b0facd.png)
+		
 						-User should change password to something completely different immediately. A password that is complex to prevent a brute force attack in future.
 			- User J: An account was successfully logged on
+			
+![image](https://user-images.githubusercontent.com/96030770/167731117-bdf487a0-e529-48b4-a27c-d506776b0907.png)
+		
 						- This log indicates the attacker was able to successfully obtain user's password
 						- Password should be changed to something more complex
 						- User should be set up with user-specific alerts with lower values in order to analyze closely			  	 		
@@ -95,7 +104,10 @@ What other rules can you create to protect VSI from attacks against your webserv
 Conceive of two more rules in "plain english".
 Hint: Look for other fields that indicate the attacker.
 
+![image](https://user-images.githubusercontent.com/96030770/167731675-6532bc9f-268f-4bc6-8453-434e7a1f9479.png)
 
+
+![image](https://user-images.githubusercontent.com/96030770/167731575-ee6056dc-3b5e-4dc7-bf9d-946ca30965a4.png)
 
 
 Guidelines for your Submission:
