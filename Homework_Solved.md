@@ -65,11 +65,11 @@ What sort of mitigation could you use to protect against this?
 		> Offer regular cyber awareness training and workshops. Regular, interactive cyber awareness programs, simulated phishing attacks, etc. can help train employees to identify and react better to information security threats.
 		> Assess the security prowess of vendors before providing them with access. It makes sense to conduct a comprehensive, end-to-end vendor risk assessment for third parties to understand and evaluate their security posture before providing any access to the business network and prior to sharing any critical data.
 		> Verify, and verify again. Get into the habit of verifying and cross-verifying credentials and authorization before sharing any sensitive information. Use official contact information (such as the person’s phone number from your organization’s internal contact directory) and not information that’s provided to you by the suspicious individual.
+
+
 Part 2: Apache Webserver Attack:
 
 Question 1
-
-
 
 ![image](https://user-images.githubusercontent.com/96030770/167729340-23616640-74f8-40e0-94b6-3a3c38bf7e33.png)
 
@@ -85,21 +85,21 @@ Question 1
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
 
-Firewall Rule Description- 
+Filtering out the traffic from the United States, the country which had the most activity is coming from Ukraine.
 
-For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
-
-
-Provide a screen shot of the geographic map that justifies why you created this rule.
+		> Firewall Rule Description- Block all incoming HTTP traffic where the source IP comes from the country of Ukraine.
 
 
 Question 2
 
-
 VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
 
-
 What other rules can you create to protect VSI from attacks against your webserver?
+
+Most of the data coming from the Ukarine is approximately 34% of the network. There are 3 other vaules that could cause for the creation of more firewalls: bytes, ip, useragent.
+	> Block all incoming HTTP traffic where the bytes are equal to 65748
+	> Block all incoming HTTP traffic where the ip address is equal to 194.105.145.147 AND 79.171.127.34
+	> Block all incoming HTTP traffic where the useragent is equal to Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0 50727987787; InfoPath.1)
 
 Conceive of two more rules in "plain english".
 Hint: Look for other fields that indicate the attacker.
