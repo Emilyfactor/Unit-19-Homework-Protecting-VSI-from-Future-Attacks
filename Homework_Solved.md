@@ -36,20 +36,27 @@ Several users were impacted during the attack on March 25th.
 
 Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
 		
-> Best Global mitigation solution would be to add a multi-factor authenticator to the companies systems. This would reduce the number of successful threats to gain access to user accounts.
+> Best Global mitigation solution- would be to add a multi-factor authenticator to the companies systems. This would reduce the number of successful threats to gain access to user accounts.
+
 > Individual Solutions:
-	- User K: An attempt was made to reset password
+	
+
+> User K: An attempt was made to reset password
 			
 ![image](https://user-images.githubusercontent.com/96030770/167730648-2455f001-62cd-48ac-a04f-3b7a901dd90f.png)
 			
 > Several attempts to reset password were made 
 > User should be set up with user-specific alerts with lower values in order to closely analyze 
+
+
 > User A: A user account was locked out
 			
 ![image](https://user-images.githubusercontent.com/96030770/167730899-55d2b807-2f2e-45e0-afdc-312228b0facd.png)
 		
  
 > User should change password to something completely different immediately. A password that is complex to prevent a brute force attack in future.
+
+
 > User J: An account was successfully logged on
 			
 
