@@ -46,11 +46,13 @@ Part 2: Apache Webserver Attack:
 
 Question 1
 
-![image](https://user-images.githubusercontent.com/96030770/167722073-f3f58284-b00a-4345-95b8-ef5a23b87227.png)
 
-![image](https://user-images.githubusercontent.com/96030770/167722306-edaa75a6-deb5-4d59-931b-91dc4b95f558.png)
 
-![image](https://user-images.githubusercontent.com/96030770/167722526-7aae8e4f-aafb-4c81-939d-7c807b37fcad.png)
+![image](https://user-images.githubusercontent.com/96030770/167729340-23616640-74f8-40e0-94b6-3a3c38bf7e33.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167729652-3aaf379c-c8ad-4dd6-ad45-bf9bac3c5c18.png)
+
+![image](https://user-images.githubusercontent.com/96030770/167729709-75f91a43-e524-4dcb-974e-0db0657a5acc.png)
 
 ![image](https://user-images.githubusercontent.com/96030770/167722677-863fc2b4-0577-4806-bc47-f70a35b7ed33.png)
 
